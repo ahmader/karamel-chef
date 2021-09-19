@@ -28,8 +28,9 @@
 ###################################################################################################
 
 HOPSWORKS_REPO=logicalclocks/hopsworks-chef
-HOPSWORKS_BRANCH=2.3
-CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/$HOPSWORKS_BRANCH
+HOPSWORKS_BRANCH=airflow_quickfix_setuptools
+#CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/$HOPSWORKS_BRANCH
+CLUSTER_DEFINITION_BRANCH=https://raw.githubusercontent.com/logicalclocks/karamel-chef/2.3
 KARAMEL_VERSION=0.6
 ENTERPRISE_DOWNLOAD_URL=https://nexus.hops.works/repository
 
